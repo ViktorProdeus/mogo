@@ -1,5 +1,5 @@
 # Макет для тренировки «Mogo» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
-(https://github.com/ViktorProdeus/mamaHealth/blob/master/preview.png)
+# ![Image of project «Здоровая мама»](https://github.com/ViktorProdeus/mamaHealth/blob/master/preview.png)
 
 * Исполнитель: [Виктор Продеус](https://up.htmlacademy.ru/adaptive/16/user/814599).
 * Демо макета: [Денис Байдаров](https://htmlacademy.ru/profile/4er).
