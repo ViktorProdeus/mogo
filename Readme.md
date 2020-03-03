@@ -3,7 +3,6 @@
 
 * Исполнитель: [Виктор Продеус](https://up.htmlacademy.ru/adaptive/16/user/814599).
 * Демо макета: [Посмотреть](https://viktorprodeus.github.io/mogo/build/).  
-# 
 
 ---
 
