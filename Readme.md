@@ -10,7 +10,7 @@
 [travis-image]: https://travis-ci.com/htmlacademy-adaptive/814599-cat-energy-16.svg?branch=master
 [travis-url]: https://travis-ci.com/htmlacademy-adaptive/814599-cat-energy-16
 [dependency-image]: https://david-dm.org/htmlacademy-adaptive/814599-cat-energy-16/dev-status.svg?style=flat-square
-[dependency-url]: https://david-dm.org/htmlacademy-adaptive/814599-cat-energy-16?type=dev
+[dependency-url]: https://david-dm.org/htmlacademy-adaptive/814599-cat-energy-16?type=dev.
 ---
 
 **Обратите внимание, что папка с вашими исходными файлами — `source/`.**
