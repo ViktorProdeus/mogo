@@ -1,0 +1,27 @@
+// font-weight helper:
+
+// 100 Extra Light or Ultra Light;
+// 200 Light or Thin; 300 Book or Demi;
+// 300 Light;
+// 400 Regular or Normal;
+// 500 Medium;
+// 600 Semibold or Demibold;
+// 700 Bold;
+// 800 Black or Extra Bold or Heavy;
+// 900 Extra Black or Fat or Ultra Black
+
+@mixin font($f-name, $f-style, $f-weight, $f-url) {
+  @font-face {
+    font-family: $f-name;
+    font-style: $f-style;
+    font-weight: $f-weight;
+    src: url('#{$f-url}.woff2') format("woff2");
+    src: url('#{$f-url}.woff') format("woff");
+  }
+}
+
+@include font("Kaushanscript", normal, 400, "../fonts/kaushanscript-regular-webfont");
+@include font("Montserrat", normal, 700, "../fonts/montserrat-bold-webfont");
+@include font("Montserrat", normal, 400, "../fonts/montserrat-regular-webfont");
+@include font("Roboto", normal, 400, "../fonts/roboto-regular-webfont");
+@include font("Roboto", normal, 300, "../fonts/roboto-lightitalic-webfont");

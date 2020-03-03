@@ -1,0 +1,72 @@
+.works {
+  margin-top: 100px;
+  display: flex;
+}
+
+.works__col {
+  flex: 1 1 0;
+}
+
+.works__item {
+  position: relative;
+
+  background-image: linear-gradient(to bottom, #f38181, #fce38a);
+
+  &:hover img {
+    opacity: 0.1;
+  }
+
+  &:hover .works__info {
+    opacity: 1;
+  }
+}
+
+.works__item img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: opacity .2s linear;
+}
+
+.works__info {
+  position: absolute;
+
+  width: 100%;
+  top: 50%;
+  left: 0;
+
+  color: #ffffff;
+  text-align: center;
+  padding: 0 15px;
+  z-index: 1;
+
+  opacity: 0;
+  transform: translate3d(0, -50%, 0);
+  transition: opacity .2s linear;
+
+  &::before {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+    content: '';
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-image: url('../img/icon-photography-white.svg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+}
+
+.works__info h3 {
+  margin: 0;
+  margin-bottom: 6px;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  text-transform: uppercase;
+}
+
+.works__info p {
+  margin: 0;
+  font-weight: 300;
+}

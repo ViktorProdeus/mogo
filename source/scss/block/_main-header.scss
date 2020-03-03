@@ -1,0 +1,27 @@
+.main-header {
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.main-header__inner {
+  padding-top: 35px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header__logo {
+  display: block;
+
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: auto;
+  color: #ffffff;
+}

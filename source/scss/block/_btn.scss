@@ -1,0 +1,24 @@
+.btn {
+  padding: 8px 28px 7px 27px;
+  margin: 0 auto;
+
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  transition: color .2s linear, background-color .2s linear;
+
+  &:hover {
+    color: #333333;
+
+    background-color: #ffffff;
+  }
+}

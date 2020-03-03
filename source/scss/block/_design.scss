@@ -1,0 +1,30 @@
+.design {
+  position: relative;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.design img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.design img:last-child {
+  position: absolute;
+  right: 0;
+  bottom: -85px;
+  z-index: 1;
+}
+
+@media (max-width: 575px) {
+  .design {
+    max-width: 320px;
+  }
+
+  .design img:last-child {
+    max-width: 180px;
+    right: -65px;
+    bottom: -75px;
+  }
+}

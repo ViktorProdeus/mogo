@@ -1,0 +1,37 @@
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+
+  background-color: #fce38a;
+  border-right: 1px solid #f9bd87;
+  transition: background-color .2s linear;
+
+  &:last-child {
+    border-right: none;
+  }
+
+  &:hover,
+  &:active {
+    background-color: #f38181;
+    border-right: 1px solid #f38181;
+  }
+
+  &:hover path,
+  &:active path {
+    fill: #ffffff;
+    transition: fill .2s linear;
+  }
+}
+
+.social__item span {
+  font-size: 0;
+}

@@ -1,0 +1,128 @@
+.about {
+  margin: 0 -15px;
+  margin-top: 100px;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about__item {
+  width: 33.3333%;
+  padding: 0 15px;
+}
+
+.about__item-wrapp {
+  position: relative;
+  background-color: #95e1d3;
+
+  &:hover p {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+
+.about__item:hover .about__img {
+  transform: translate3d(-10px, -10px, 0);
+}
+
+.about__item:hover img {
+  opacity: 0.3;
+}
+
+.about__img {
+  background-image: linear-gradient(to bottom, #f38181, #fce38a);
+  transition: transform .2s linear;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: opacity .1s linear;
+  }
+}
+
+.about__item .about__img-caption {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  transform: translate3d(0, -50%, 0);
+  opacity: 0;
+
+  transition: opacity .2s linear;
+
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #ffffff;
+  text-align: center;
+
+  &::before {
+    display: block;
+    width: 32px;
+    height: 24px;
+    margin: 0 auto;
+
+    content: '';
+    background-image: url('../img/about/icon-about.svg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
+}
+
+.about__caption {
+  margin-top: 28px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.about__caption h3 {
+  margin: 0;
+  margin-bottom: 6px;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.4;
+  color: #333333;
+}
+
+.about__caption p {
+  margin: 0;
+  font-weight: 300;
+}
+
+.about--team .social {
+
+  &::before {
+    display: none;
+  }
+}
+
+@media (max-width: 770px) {
+  .about {
+    margin-top: 70px;
+    justify-content: center;
+  }
+
+  .about__item {
+    width: 100%;
+    max-width: 410px;
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .about {
+    margin-top: 50px;
+  }
+}

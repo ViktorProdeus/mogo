@@ -1,0 +1,126 @@
+.accordion {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.accordion__item {
+  border: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.accordion__header {
+  position: relative;
+  padding: 20px 40px;
+  padding-left: 60px;
+
+  cursor: pointer;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 16px;
+
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
+
+  &::after {
+    position: absolute;
+
+    content: '';
+    width: 16px;
+    height: 16px;
+    top: 23px;
+    right: 20px;
+    border-top: 3px solid #cccccc;
+    border-left: 3px solid #cccccc;
+    transform: rotate(225deg);
+  }
+
+  &:hover h3,
+  &:hover::after {
+    opacity: 0.7;
+  }
+}
+
+.accordion__header--photography::before {
+  width: 30px;
+  height: 30px;
+  background-image: url('../img/advantages/icon-photography.svg');
+}
+
+.accordion__header--creativity::before {
+  width: 28px;
+  height: 32px;
+  background-image: url('../img/advantages/icon-creativity.svg');
+}
+
+.accordion__header--web::before {
+  width: 32px;
+  height: 32px;
+  background-image: url('../img/advantages/icon-web.svg');
+}
+
+.accordion__item--active .accordion__header {
+  border-bottom: 1px solid #e5e5e5;
+
+  &::after {
+    transform: rotate(45deg);
+  }
+}
+
+.accordion__header h3 {
+  margin: 0;
+
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+
+.accordion__item--active .accordion__content {
+  display: block;
+}
+
+/* Scrollbar custom style */
+// ========================
+
+.accordion__content {
+  display: none;
+  padding: 20px 50px 35px 20px;
+  font-weight: 300;
+
+  height: auto;
+  max-height: 200px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  -moz-overflow-scrolling: touch;
+  -ms-overflow-scrolling: touch;
+  -o-overflow-scrolling: touch;
+}
+
+.accordion__content::-webkit-scrollbar-track {
+  background-color: rgba(245, 245, 245, 0.6);
+}
+
+.accordion__content::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #95e1d3;
+}
+
+.accordion__content::-webkit-scrollbar { // or :hover::-webkit-scrollbar
+  -webkit-appearance: none;
+  width: 8px;
+}
+
+// ========================
+
+.accordion__content p {
+  margin: 0;
+}

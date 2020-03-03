@@ -1,0 +1,36 @@
+.map {
+  display: block;
+
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #f38181;
+}
+
+.map h2 {
+  position: relative;
+
+  margin: 0;
+  font: inherit;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+
+  &::after {
+    display: block;
+    margin: 15px auto 0;
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+  }
+}
