@@ -23,7 +23,7 @@
 
 .works__item img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   transition: opacity .2s linear;
 }
@@ -49,11 +49,11 @@
     margin: 0 auto;
     margin-bottom: 15px;
 
-    content: '';
+    content: "";
     width: 30px;
     height: 30px;
     text-align: center;
-    background-image: url('../img/icon-photography-white.svg');
+    background-image: url("../img/icon-photography-white.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
   }
@@ -62,11 +62,38 @@
 .works__info h3 {
   margin: 0;
   margin-bottom: 6px;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
 .works__info p {
   margin: 0;
   font-weight: 300;
+}
+
+@media (max-width: 990px) {
+  .works {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 770px) {
+  .works__col {
+    flex: none;
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .works {
+    display: block;
+  }
+
+  .works__col {
+    width: 100%;
+  }
 }

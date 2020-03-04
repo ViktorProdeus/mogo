@@ -8,7 +8,7 @@
   min-height: 800px;
 
   background-color: #ecb487;
-  background-image: url('../img/intro/bg.jpg');
+  background-image: url("../img/intro/bg.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +25,7 @@
   display: block;
   margin-bottom: 27px;
 
-  font-family: 'Kaushanscript', 'Arial', sans-serif;
+  font-family: "Kaushanscript", "Arial", sans-serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 1.4;
@@ -38,7 +38,7 @@
   margin: 0;
   margin-bottom: 125px;
 
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 150px;
   font-weight: 700;
   line-height: 0.9;
@@ -46,7 +46,7 @@
   color: #ffffff;
 
   &::after {
-    content: '';
+    content: "";
 
     position: absolute;
     width: 60px;
@@ -78,7 +78,7 @@
   width: 23%;
   padding: 20px 0;
 
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 18px;
   color: #ffffff;
   text-transform: uppercase;
@@ -91,7 +91,7 @@
   }
 
   &--active::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 70px;
     height: 3px;

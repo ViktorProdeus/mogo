@@ -1,5 +1,5 @@
 .blog {
-  margin: 0;
+  margin: 0 auto;
   margin-top: 48px;
   padding: 0;
   list-style: none;
@@ -10,8 +10,10 @@
 }
 
 .blog__item {
-  flex-basis: 380px;
-  margin-bottom: 40px;
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .blog__header {
@@ -21,6 +23,13 @@
 
 .blog__photo {
   display: block;
+  max-width: 100%;
+  height: auto;
+  transition: opacity .1s linear;
+
+  &:active {
+    opacity: 0.7;
+  }
 }
 
 .blog__header time {
@@ -46,7 +55,7 @@
 .blog__header b {
   display: block;
 
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 30px;
   line-height: 1;
   font-weight: 700;
@@ -54,20 +63,30 @@
 
 .blog__content {
   padding-bottom: 18px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .blog__content h3 {
   margin: 0;
   margin-bottom: 12px;
 
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.4;
   text-transform: uppercase;
 
   color: #333333;
+  transition: opacity .1s linear;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
 }
 
 .blog__content p {
@@ -76,6 +95,10 @@
 
 .blog__footer {
   position: relative;
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid #e5e5e5;
+
   font-weight: 300;
   font-size: 0;
 }
@@ -88,14 +111,14 @@
 
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 20px;
     height: 12px;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    background-image: url('../img/blog/icon-view.svg');
+    background-image: url("../img/blog/icon-view.svg");
     background-repeat: no-repeat;
   }
 }
@@ -107,14 +130,29 @@
   font-size: 15px;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 20px;
     height: 12px;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    background-image: url('../img/blog/icon-messages.svg');
+    background-image: url("../img/blog/icon-messages.svg");
     background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 770px) {
+  .blog {
+    max-width: 380px;
+  }
+
+  .blog__item {
+    width: 100%;
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }

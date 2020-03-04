@@ -12,7 +12,7 @@
 
 .section__header b {
   display: block;
-  font-family: 'Kaushanscript', 'Arial', sans-serif;
+  font-family: "Kaushanscript", "Arial", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.4;
@@ -23,7 +23,7 @@
 .section__header h2 {
   margin: 0;
 
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 1.4;
@@ -34,7 +34,7 @@
   &::after {
     display: block;
     margin: 35px auto 38px;
-    content: '';
+    content: "";
     width: 60px;
     height: 3px;
     background-color: #f38181;
@@ -61,7 +61,7 @@
   margin-bottom: 40px;
 
   background-color: #eeeeee;
-  background-image: url('../img/design/bg.jpg');
+  background-image: url("../img/design/bg.jpg");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -79,7 +79,7 @@
   padding-bottom: 60px;
 
   background-color: #f5f5f5;
-  background-image: url('../img/clients/bg.jpg');
+  background-image: url("../img/clients/bg.jpg");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@
 .section--map {
   padding: 57px 0;
   background-color: #f5f5f5;
-  background-image: url('../img/map/bg.jpg');
+  background-image: url("../img/map/bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -114,6 +114,10 @@
 }
 
 @media (max-width: 575px) {
+  .section--clients {
+    padding-bottom: 0;
+  }
+
   .section__header b {
     font-size: 20px;
   }

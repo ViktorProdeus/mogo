@@ -17,7 +17,7 @@
   cursor: pointer;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 15px;
     left: 16px;
@@ -29,7 +29,7 @@
   &::after {
     position: absolute;
 
-    content: '';
+    content: "";
     width: 16px;
     height: 16px;
     top: 23px;
@@ -48,19 +48,19 @@
 .accordion__header--photography::before {
   width: 30px;
   height: 30px;
-  background-image: url('../img/advantages/icon-photography.svg');
+  background-image: url("../img/advantages/icon-photography.svg");
 }
 
 .accordion__header--creativity::before {
   width: 28px;
   height: 32px;
-  background-image: url('../img/advantages/icon-creativity.svg');
+  background-image: url("../img/advantages/icon-creativity.svg");
 }
 
 .accordion__header--web::before {
   width: 32px;
   height: 32px;
-  background-image: url('../img/advantages/icon-web.svg');
+  background-image: url("../img/advantages/icon-web.svg");
 }
 
 .accordion__item--active .accordion__header {
@@ -74,7 +74,7 @@
 .accordion__header h3 {
   margin: 0;
 
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.4;
   text-transform: uppercase;

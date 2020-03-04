@@ -1,17 +1,17 @@
 .instagram {
-  margin-left: 40px;
-  width: 270px;
+  padding: 0 15px;
+  width: 21% // 270px;
 }
 
 .instagram__gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: 10px;
 }
 
 .instagram__item {
-  width: 33%;
+  width: 32.6%;
   border: 1px solid #ffffff;
   background-image: linear-gradient(to bottom,#f38181,#fce38a);
 }
@@ -44,5 +44,22 @@
 
   &:active {
     opacity: 0.7;
+  }
+}
+
+@media (max-width: 990px) {
+  .instagram {
+    width: 50%;
+    justify-content: flex-start;
+  }
+
+  .instagram__item  {
+    width: auto;
+  }
+}
+
+@media (max-width: 770px) {
+  .instagram {
+    width: 100%;
   }
 }

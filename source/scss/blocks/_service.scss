@@ -20,7 +20,7 @@
 
   &::before {
     position: absolute;
-    content: '';
+    content: "";
     left: 30px;
     top: 0;
     width: 32px;
@@ -33,35 +33,35 @@
 
 .service__item--photography::before {
   height: 31px;
-  background-image: url('../img/services/icon-alarm.svg');
+  background-image: url("../img/services/icon-alarm.svg");
 }
 
 .service__item--webdesign::before {
-  background-image: url('../img/services/icon-webdesign.svg');
+  background-image: url("../img/services/icon-webdesign.svg");
 }
 
 .service__item--creativity::before {
   height: 28px;
-  background-image: url('../img/services/icon-creativity.svg');
+  background-image: url("../img/services/icon-creativity.svg");
 }
 
 .service__item--seo::before {
-  background-image: url('../img/services/icon-seo.svg');
+  background-image: url("../img/services/icon-seo.svg");
 }
 
 .service__item--home::before {
   height: 31px;
-  background-image: url('../img/services/icon-home.svg');
+  background-image: url("../img/services/icon-home.svg");
 }
 
 .service__item--digital::before {
-  background-image: url('../img/services/icon-digital.svg');
+  background-image: url("../img/services/icon-digital.svg");
 }
 
 .service__item h3 {
   margin: 0;
 
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.4;
