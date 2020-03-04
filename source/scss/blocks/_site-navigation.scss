@@ -1,5 +1,6 @@
 .site-navigation {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
@@ -9,8 +10,6 @@
 }
 
 .site-navigation__link {
-  display: inline-block;
-  vertical-align: top;
   position: relative;
   padding-bottom: 10px;
 
@@ -62,5 +61,18 @@
 @media (max-width: 770px) {
   .site-navigation {
     display: none;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+    background-color: #eb8b8d;
+  }
+
+  .site-navigation__link {
+    width: 100%;
+    margin: 0;
+    padding: 8px 20px;
   }
 }

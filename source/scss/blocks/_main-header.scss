@@ -1,4 +1,5 @@
 .main-header {
+  padding-top: 30px;
   width: 100%;
 
   position: absolute;
@@ -8,9 +9,25 @@
   z-index: 1000;
 }
 
-.main-header__inner {
-  padding-top: 35px;
+/* for burger-menu */
+//===================
 
+.main-header--fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  transform: translate3d(0, 0, 0);
+  background-color: #eb8b8d;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-header--active {
+  background-color: #eb8b8d;
+}
+
+.main-header__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,4 +41,10 @@
   font-size: 30px;
   line-height: auto;
   color: #ffffff;
+}
+
+@media (max-width: 770px) {
+  .main-header {
+    padding: 10px 0;
+  }
 }
