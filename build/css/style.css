@@ -364,7 +364,7 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
   display: inline-block;
   vertical-align: top;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.4;
@@ -401,7 +401,7 @@ input[type="radio"].visually-hidden {
 
 .main-header__logo {
   display: block;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: auto;
@@ -414,7 +414,7 @@ input[type="radio"].visually-hidden {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
   font-size: 0;
   line-height: 1.4;
@@ -433,7 +433,7 @@ input[type="radio"].visually-hidden {
   .site-navigation__link:first-child {
     margin-left: 0; }
   .site-navigation__link::after {
-    content: '';
+    content: "";
     width: 100%;
     height: 3px;
     background-color: #fce38a;
@@ -494,7 +494,7 @@ input[type="radio"].visually-hidden {
 .intro__suptitle {
   display: block;
   margin-bottom: 27px;
-  font-family: 'Kaushanscript', 'Arial', sans-serif;
+  font-family: "Kaushanscript", "Arial", sans-serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 1.4;
@@ -504,14 +504,14 @@ input[type="radio"].visually-hidden {
   position: relative;
   margin: 0;
   margin-bottom: 125px;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 150px;
   font-weight: 700;
   line-height: 0.9;
   text-transform: uppercase;
   color: #ffffff; }
   .intro__title::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 60px;
     height: 3px;
@@ -541,7 +541,7 @@ input[type="radio"].visually-hidden {
   position: relative;
   width: 23%;
   padding: 20px 0;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 18px;
   color: #ffffff;
   text-transform: uppercase;
@@ -550,7 +550,7 @@ input[type="radio"].visually-hidden {
   .intro__slider-item--active {
     opacity: 1; }
   .intro__slider-item--active::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 70px;
     height: 3px;
@@ -601,7 +601,7 @@ input[type="radio"].visually-hidden {
 
 .section__header b {
   display: block;
-  font-family: 'Kaushanscript', 'Arial', sans-serif;
+  font-family: "Kaushanscript", "Arial", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.4;
@@ -610,7 +610,7 @@ input[type="radio"].visually-hidden {
 
 .section__header h2 {
   margin: 0;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 1.4;
@@ -619,7 +619,7 @@ input[type="radio"].visually-hidden {
   .section__header h2::after {
     display: block;
     margin: 35px auto 38px;
-    content: '';
+    content: "";
     width: 60px;
     height: 3px;
     background-color: #f38181; }
@@ -745,7 +745,7 @@ input[type="radio"].visually-hidden {
   opacity: 0;
   -webkit-transition: opacity .2s linear;
   transition: opacity .2s linear;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.4;
@@ -756,7 +756,7 @@ input[type="radio"].visually-hidden {
     width: 32px;
     height: 24px;
     margin: 0 auto;
-    content: '';
+    content: "";
     background-image: url("../img/about/icon-about.svg");
     background-position: 0 0;
     background-repeat: no-repeat; }
@@ -769,7 +769,7 @@ input[type="radio"].visually-hidden {
 .about__caption h3 {
   margin: 0;
   margin-bottom: 6px;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   line-height: 1.4;
@@ -826,7 +826,7 @@ input[type="radio"].visually-hidden {
 
 .statistics__item span {
   display: block;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 700;
   font-size: 72px;
   line-height: 1;
@@ -834,7 +834,7 @@ input[type="radio"].visually-hidden {
 
 .statistics__item p {
   margin: 0;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
@@ -888,7 +888,7 @@ input[type="radio"].visually-hidden {
     margin-bottom: 0; }
   .service__item::before {
     position: absolute;
-    content: '';
+    content: "";
     left: 30px;
     top: 0;
     width: 32px;
@@ -919,7 +919,7 @@ input[type="radio"].visually-hidden {
 
 .service__item h3 {
   margin: 0;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.4;
@@ -1018,7 +1018,7 @@ input[type="radio"].visually-hidden {
   padding-left: 60px;
   cursor: pointer; }
   .accordion__header::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 15px;
     left: 16px;
@@ -1026,7 +1026,7 @@ input[type="radio"].visually-hidden {
     background-repeat: no-repeat; }
   .accordion__header::after {
     position: absolute;
-    content: '';
+    content: "";
     width: 16px;
     height: 16px;
     top: 23px;
@@ -1061,7 +1061,7 @@ input[type="radio"].visually-hidden {
 
 .accordion__header h3 {
   margin: 0;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.4;
   text-transform: uppercase;
@@ -1160,7 +1160,7 @@ input[type="radio"].visually-hidden {
 .slider__block cite {
   position: relative;
   padding-left: 70px;
-  font-family: 'Kaushanscript', 'Arial', sans-serif;
+  font-family: "Kaushanscript", "Arial", sans-serif;
   font-weight: 400;
   font-weight: 300;
   font-size: 24px;
@@ -1168,7 +1168,7 @@ input[type="radio"].visually-hidden {
   color: #333333; }
   .slider__block cite::before {
     position: absolute;
-    content: '';
+    content: "";
     width: 60px;
     height: 3px;
     top: 50%;
@@ -1367,7 +1367,7 @@ input[type="radio"].visually-hidden {
     display: block;
     margin: 0 auto;
     margin-bottom: 15px;
-    content: '';
+    content: "";
     width: 30px;
     height: 30px;
     text-align: center;
@@ -1378,7 +1378,7 @@ input[type="radio"].visually-hidden {
 .works__info h3 {
   margin: 0;
   margin-bottom: 6px;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.4;
   font-weight: 400;
@@ -1426,18 +1426,17 @@ input[type="radio"].visually-hidden {
 
 .clients__item img {
   position: absolute;
-  content: '';
   width: 110px;
   height: 110px;
   top: 0;
   left: 40px;
   border-radius: 50%;
-  overflow: hidden; }
+  z-index: 1; }
 
 .clients__description h3 {
   margin: 0;
   margin-bottom: 8px;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   color: #333333; }
@@ -1445,14 +1444,14 @@ input[type="radio"].visually-hidden {
 .clients__description b {
   margin-bottom: 24px;
   position: relative;
-  font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 1.6;
   color: #333333; }
   .clients__description b::after {
     display: block;
-    content: '';
+    content: "";
     margin-top: 13px;
     width: 60px;
     height: 3px;
@@ -1564,7 +1563,7 @@ input[type="radio"].visually-hidden {
 
 .blog__header b {
   display: block;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 30px;
   line-height: 1;
   font-weight: 700; }
@@ -1585,7 +1584,7 @@ input[type="radio"].visually-hidden {
 .blog__content h3 {
   margin: 0;
   margin-bottom: 12px;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.4;
   text-transform: uppercase;
@@ -1614,7 +1613,7 @@ input[type="radio"].visually-hidden {
   position: relative;
   font-size: 15px; }
   .blog__views::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 20px;
     height: 12px;
@@ -1630,7 +1629,7 @@ input[type="radio"].visually-hidden {
   position: relative;
   font-size: 15px; }
   .blog__messages::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 20px;
     height: 12px;
@@ -1652,7 +1651,7 @@ input[type="radio"].visually-hidden {
 
 .map {
   display: block;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.4;
@@ -1671,7 +1670,7 @@ input[type="radio"].visually-hidden {
   .map h2::after {
     display: block;
     margin: 15px auto 0;
-    content: '';
+    content: "";
     width: 60px;
     height: 3px;
     background-color: #f38181; }
@@ -1697,7 +1696,7 @@ input[type="radio"].visually-hidden {
 .main-footer__inner h2 {
   margin-top: 10px;
   margin-bottom: 37px;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   line-height: auto;
   text-transform: uppercase;
@@ -1705,14 +1704,14 @@ input[type="radio"].visually-hidden {
 
 .main-footer__logo {
   margin-bottom: 40px;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 700;
   font-size: 46px;
   line-height: auto;
   color: #cccccc; }
 
 .main-footer__copyright {
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: auto;
@@ -1753,7 +1752,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   margin-bottom: 13px;
   padding-bottom: 16px;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: auto;
@@ -1900,7 +1899,7 @@ input[type="radio"].visually-hidden {
 .blogs__content a {
   margin: 0;
   display: block;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;

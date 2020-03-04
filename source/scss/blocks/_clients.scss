@@ -18,14 +18,13 @@
 .clients__item img {
   position: absolute;
 
-  content: "";
   width: 110px;
   height: 110px;
   top: 0;
   left: 40px;
 
   border-radius: 50%;
-  overflow: hidden;
+  z-index: 1;
 }
 
 .clients__description h3 {
