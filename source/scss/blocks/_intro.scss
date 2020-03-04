@@ -131,6 +131,10 @@
 }
 
 @media (max-width: 770px) {
+  .intro {
+    min-height: 560px;
+  }
+
   .intro__slider-item span {
     display: none;
   }
