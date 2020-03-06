@@ -7,13 +7,13 @@
 }
 
 .advantages__column {
-  flex: 1 1 50%;
+  max-width: 50%;
   padding: 0 15px;
 }
 
 .advantages__column img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -23,7 +23,7 @@
   }
 
   .advantages__column {
-    flex: 1 1 100%;
+    max-width: 100%;
     margin: 0 auto;
     margin-bottom: 30px;
 

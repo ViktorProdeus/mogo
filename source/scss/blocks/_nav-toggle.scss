@@ -18,10 +18,6 @@
   cursor: pointer;
 }
 
-.nav-toggle:focus {
-  outline: 0;
-}
-
 .nav-toggle__item {
   display: block;
   width: 100%;
@@ -59,6 +55,20 @@
 
   &::after {
     bottom: -8px;
+  }
+}
+
+.nav-toggle--active .nav-toggle__item {
+  background: none;
+
+  &::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    bottom: 0;
+    transform: rotate(-45deg);
   }
 }
 

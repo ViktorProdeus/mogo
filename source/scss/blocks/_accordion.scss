@@ -5,6 +5,7 @@
 }
 
 .accordion__item {
+  border: 1px solid #e5e5e5;
   margin-bottom: 10px;
 }
 
@@ -14,7 +15,6 @@
   padding-left: 60px;
 
   cursor: pointer;
-  border: 1px solid #e5e5e5;
 
   &::before {
     content: "";
@@ -37,57 +37,11 @@
     border-top: 3px solid #cccccc;
     border-left: 3px solid #cccccc;
     transform: rotate(225deg);
-
-    -webkit-animation-name: rotateOut;
-    animation-name: rotateOut;
-    animation-duration: .6s;
-    animation-iteration-count: 1;
   }
 
   &:hover h3,
   &:hover::after {
     opacity: 0.7;
-  }
-}
-
-.accordion__item--active .accordion__header::after {
-  -webkit-animation-name: rotateIn;
-  animation-name: rotateIn;
-  animation-duration: .6s;
-  animation-iteration-count: 1;
-}
-
-@keyframes rotateOut {
-  from {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, -1, -20deg);
-    transform: rotate3d(0, 0, -1, -20deg);
-    opacity: 1;
-  }
-
-  to {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    opacity: 1;
-  }
-}
-
-@keyframes rotateIn {
-  from {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, -100deg);
-    transform: rotate3d(0, 0, 1, -100deg);
-    opacity: 0;
-  }
-
-  to {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: translate3d(0, 0, 0, 100deg);
-    transform: translate3d(0, 0, 0, 100deg);
-    opacity: 1;
   }
 }
 
@@ -130,21 +84,7 @@
 
 .accordion__item--active .accordion__content {
   display: block;
-
-  animation-name: fadeIn;
-  animation-duration: 0.9s;
 }
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
 
 /* Scrollbar custom style */
 // ========================
@@ -156,8 +96,6 @@
 
   height: auto;
   max-height: 200px;
-  border: 1px solid #e5e5e5;
-  border-top: none;
 
   overflow-y: auto;
   overflow-x: hidden;
@@ -176,8 +114,7 @@
   background-color: #95e1d3;
 }
 
-.accordion__content::-webkit-scrollbar {
-  // or :hover::-webkit-scrollbar
+.accordion__content::-webkit-scrollbar { // or :hover::-webkit-scrollbar
   -webkit-appearance: none;
   width: 8px;
 }

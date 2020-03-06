@@ -5,24 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="css/style.min.css">
   <title>Mogo</title>
 </head>
 
 <body>
 
-  <header id="header" class="main-header">
+  <header class="main-header main-header--active">
     <div class="container">
       <div class="main-header__inner">
-        <a class="main-header__logo" href="#" data-scroll="#intro">MoGo</a>
+        <a class="main-header__logo" href="#">MoGo</a>
 
-        <nav id="nav" class="site-navigation">
-          <a href="#" class="site-navigation__link" data-scroll="#about">About</a>
-          <a href="#" class="site-navigation__link" data-scroll="#service">Service</a>
-          <a href="#" class="site-navigation__link" data-scroll="#work">Work</a>
-          <a href="#" class="site-navigation__link" data-scroll="#blog">Blog</a>
-          <a href="#" class="site-navigation__link" data-scroll="#contact">Contact</a>
+        <nav class="site-navigation">
+          <a href="#" class="site-navigation__link site-navigation__link--active">About</a>
+          <a href="#" class="site-navigation__link">Service</a>
+          <a href="#" class="site-navigation__link">Work</a>
+          <a href="#" class="site-navigation__link">Blog</a>
+          <a href="#" class="site-navigation__link">contact</a>
           <a href="#" class="site-navigation__link site-navigation__link--basket"><svg
               xmlns="http://www.w3.org/2000/svg" width="18px" height="15px">
               <path fill-rule="evenodd" fill="#ffffff"
@@ -38,7 +37,7 @@
           </a>
         </nav>
 
-        <button id="nav_toggle" class="nav-toggle" type="button">
+        <button class="nav-toggle nav-toggle--active" type="button">
           <span class="nav-toggle__item">menu</span>
         </button>
       </div>
@@ -47,7 +46,7 @@
   </header>
 
   <main class="main-content">
-    <section id="intro" class="intro">
+    <section class="intro">
       <div class="container">
         <div class="intro__inner">
           <b class="intro__suptitle">Creative Template</b>
@@ -84,14 +83,14 @@
       </div>
     </section>
 
-    <section id="about" class="section">
+    <section class="section">
       <div class="container">
         <div class="section__header">
           <b>What we do</b>
           <h2>Story about us</h2>
 
           <p>foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            doactive magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. </p>
         </div>
 
@@ -159,7 +158,7 @@
       </div>
     </section>
 
-    <section id="service" class="section section--service">
+    <section class="section section--service">
       <div class="container">
         <div class="section__header">
           <b>We work with</b>
@@ -227,7 +226,7 @@
           <h2>What we do</h2>
 
           <p>foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            doactive magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. </p>
         </div>
 
@@ -238,42 +237,51 @@
 
           <div class="advantages__column">
             <ul class="accordion">
-              <li class="accordion__item" data-collapse="#accordion-photography">
+              <li class="accordion__item accordion__item--active">
                 <div class="accordion__header accordion__header--photography">
                   <h3>Photography</h3>
                 </div>
-                <div id="accordion-photography" class="accordion__content">
-                  <p>foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et doactive magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum doactive eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                    in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="accordion__content">
+                  <div>
+                    <p>foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                      in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+
                 </div>
               </li>
 
-              <li class="accordion__item" data-collapse="#accordion-creativity">
+              <li class="accordion__item">
                 <div class="accordion__header accordion__header--creativity">
                   <h3>Creativity</h3>
                 </div>
-                <div id="accordion-creativity" class="accordion__content">
-                  <p>foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et doactive magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum doactive eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                    in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="accordion__content">
+                  <div>
+                    <p>foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                      in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+
                 </div>
               </li>
 
-              <li class="accordion__item" data-collapse="#accordion-web">
+              <li class="accordion__item">
                 <div class="accordion__header accordion__header--web">
                   <h3>web design</h3>
                 </div>
-                <div id="accordion-web" class="accordion__content">
-                  <p>foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et doactive magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum doactive eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                    in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="accordion__content">
+                  <div>
+                    <p>foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                      in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+
                 </div>
               </li>
             </ul>
@@ -286,36 +294,37 @@
       <h2 class="visually-hidden">Reviews</h2>
       <div class="container">
 
-        <div class="slider slider--gray">
-          <div class="slider__list">
-            <div data-slider>
-              <div>
-                <div class="slider__item">
-                  <img src="img/icon-message.svg" width="163" height="163" alt="image message">
+        <div class="slider slider--gray ">
+          <ul class="slider__list">
+            <li class="slider__item slider__item--active">
+              <img src="img/icon-message.svg" width="163" height="163" alt="image message">
 
-                  <blockquote class="slider__block">
-                    <p>“foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                      labore
-                      et doactive magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+              <blockquote class="slider__block">
+                <p>“foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
 
-                    <cite>Jon Doe</cite>
-                  </blockquote>
-                </div>
-              </div>
+                <cite>Jon Doe</cite>
+              </blockquote>
+            </li>
 
-              <div>
-                <div class="slider__item">
-                  <img class="slider__avatar" src="img/reviews/1.jpg" width="163" height="163" alt="image-2">
+            <li class="slider__item">
+              <img src="img/icon-message.svg" width="163" height="163" alt="image message">
 
-                  <blockquote class="slider__block">
-                    <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quo ipsam odio dolor ipsum harum! Facere sapiente, vitae laborum, porro optio deleniti modi libero fuga tempore, cum voluptatem quo soluta?”</p>
+              <blockquote class="slider__block">
+                <p>“foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
 
-                    <cite>Jon Doe</cite>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
-          </div>
+                <cite>Jon Doe</cite>
+              </blockquote>
+            </li>
+          </ul>
+
+
+          <button class="slider__button slider__prev">arrow-left</button>
+          <button class="slider__button slider__next">arrow-right</button>
+
         </div>
 
       </div>
@@ -328,7 +337,7 @@
           <h2>Meet our team</h2>
 
           <p>foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            doactive magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat.</p>
         </div>
 
@@ -499,14 +508,14 @@
       </div>
     </section>
 
-    <section id="work" class="section section--works">
+    <section class="section section--works">
       <div class="container">
         <div class="section__header">
           <b>What we do</b>
           <h2>Some of our work</h2>
 
           <p>foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            doactive magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat.</p>
         </div>
       </div>
@@ -599,37 +608,34 @@
       <div class="container">
 
         <div class="slider slider--white">
-          <div class="slider__list">
-            <div data-slider>
-              <div>
-                <div class="slider__item">
-                <img class="slider__avatar" src="img/reviews/1.jpg" width="210" height="210" alt="avatar">
+          <ul class="slider__list">
+            <li class="slider__item slider__item--active">
+              <img class="slider__avatar" src="img/reviews/1.jpg" width="210" height="210" alt="avatar">
 
-                <blockquote class="slider__block">
-                  <p>“foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et doactive magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+              <blockquote class="slider__block">
+                <p>“foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
 
-                  <cite>Jon Doe</cite>
-                </blockquote>
-              </div>
-              </div>
+                <cite>Jon Doe</cite>
+              </blockquote>
+            </li>
 
-              <div>
-                <div class="slider__item">
-                <img src="img/icon-message.svg" width="163" height="163" alt="image message">
+            <li class="slider__item">
+              <img src="img/icon-message.svg" width="163" height="163" alt="image message">
 
-                <blockquote class="slider__block">
-                  <p>“foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et doactive magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+              <blockquote class="slider__block">
+                <p>“foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
 
-                  <cite>Jon Doe</cite>
-                </blockquote>
-              </div>
-              </div>
-            </div>
-          </div>
+                <cite>Jon Doe</cite>
+              </blockquote>
+            </li>
+          </ul>
+
+          <button class="slider__button slider__prev">arrow-left</button>
+          <button class="slider__button slider__next">arrow-right</button>
         </div>
 
       </div>
@@ -653,7 +659,7 @@
 
               <p>
                 foget to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                doactive magna aliqua. Ut enim ad minim.
+                dolore magna aliqua. Ut enim ad minim.
               </p>
             </div>
           </li>
@@ -667,7 +673,7 @@
               <b>Graphic Design</b>
 
               <p>
-                Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doactive magna
+                Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua. Ut enim ad minim veniam
               </p>
             </div>
@@ -683,7 +689,7 @@
 
               <p>
                 to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                doactive
+                dolore
                 magna aliqua. Ut enim ad minim veniam
               </p>
             </div>
@@ -699,7 +705,7 @@
 
               <p>
                 to long dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                doactive
+                dolore
                 magna aliqua. Ut enim ad minim veniam
               </p>
             </div>
@@ -708,7 +714,7 @@
       </div>
     </section>
 
-    <section id="blog" class="section">
+    <section class="section">
       <div class="container">
         <div class="section__header">
           <b>Our stories</b>
@@ -730,7 +736,7 @@
                 <h3>foget to long dolor sit amet</h3>
               </a>
 
-              <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doactive magna aliqua.</p>
+              <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
 
             <div class="blog__footer">
@@ -753,7 +759,7 @@
                 <h3>Sed do eiusmod tempor</h3>
               </a>
 
-              <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et doactive magna aliqua.</p>
+              <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
 
             <div class="blog__footer">
@@ -773,10 +779,10 @@
 
             <div class="blog__content">
               <a href="#">
-                <h3>incididunt ut labore et doactive</h3>
+                <h3>incididunt ut labore et dolore</h3>
               </a>
 
-              <p>Elit, sed do eiusmod tempor incididunt ut labore et doactive magna aliqua.</p>
+              <p>Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
 
             <div class="blog__footer">
@@ -799,7 +805,7 @@
     </section>
   </main>
 
-  <footer id="contact" class="main-footer">
+  <footer class="main-footer">
     <div class="container">
       <div class="main-footer__inner">
         <section class="promo">
@@ -811,7 +817,7 @@
 
           <p class="promo__description">
             Gorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            doactive magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat.
           </p>
 
@@ -884,7 +890,7 @@
 
           <ul class="blogs__list">
             <li class="blogs__item">
-              <img src="img/footer/blogs/1.jpg" width="120" height="80" alt="blogs-1">
+              <img src="img/footer/blogs/1.jpg" width="120" height="80" src="img/blog/1.jpg" alt="blogs-1">
 
               <div class="blogs__content">
                 <a href="#">Gorem ipsum dolor sit amet,
@@ -895,7 +901,7 @@
             </li>
 
             <li class="blogs__item">
-              <img src="img/footer/blogs/2.jpg" width="120" height="80" alt="blogs-2">
+              <img src="img/footer/blogs/2.jpg" width="120" height="80" src="img/blog/1.jpg" alt="blogs-2">
 
               <div class="blogs__content">
                 <a href="#">Gorem ipsum dolor sit amet,
@@ -906,7 +912,7 @@
             </li>
 
             <li class="blogs__item">
-              <img src="img/footer/blogs/3.jpg" width="120" height="80" alt="blogs-3">
+              <img src="img/footer/blogs/3.jpg" width="120" height="80" src="img/blog/1.jpg" alt="blogs-3">
 
               <div class="blogs__content">
                 <a href="#">Gorem ipsum dolor sit amet,
@@ -971,9 +977,7 @@
     </div>
   </footer>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="js/main.min.js"></script>
+
 </body>
 
 </html>

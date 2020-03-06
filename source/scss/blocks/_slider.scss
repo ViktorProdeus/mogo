@@ -1,10 +1,9 @@
 .slider {
   position: relative;
-    padding: 63px 0;
 }
 
-.slider--gray .slick-slider {
-  padding: 0 110px;
+.slider--gray {
+  padding: 63px 110px;
 }
 
 .slider--gray img {
@@ -12,8 +11,8 @@
   height: 163px;
 }
 
-.slider--white .slick-slider {
-  padding: 0 80px;
+.slider--white {
+  padding: 63px 80px;
 }
 
 .slider--white img {
@@ -27,14 +26,17 @@
   list-style: none;
 }
 
+.slider__item {
+  display: none;
+}
+
 .slider__item img {
   display: block;
   flex-shrink: 0;
   margin-right: 40px;
 }
 
-.slider__item {
-  min-height: 210px;
+.slider__item--active {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,8 +87,7 @@
   }
 }
 
-// slick
-.slick-arrow {
+.slider__button {
   position: absolute;
 
   width: 16px;
@@ -94,41 +95,36 @@
   font-size: 0;
   top: 50%;
   transform: translateY(-50%);
-  border: 0;
+  border: none;
   border-top: 3px solid #cccccc;
   border-left: 3px solid #cccccc;
-  background: none;
+  background-color: transparent;
   transform: rotate(135deg);
-  z-index: 1;
-
-  cursor: pointer;
 }
 
-.slick-arrow:focus {
-  outline: none;
-}
-
-.slick-prev {
+.slider__prev {
   left: 25px;
   transform: rotate(-45deg);
 }
 
-.slick-next {
+.slider__next {
   right: 25px;
   transform: rotate(135deg);
 }
 
-//-------------------------
-
 @media (max-width: 1230px) {
-  .slider--gray .slick-slider {
-    padding: 0 80px;
+  .slider--gray {
+    padding: 63px 80px;
   }
 }
 
 @media (max-width: 990px) {
-  .slider .slick-slider {
-    padding: 0 40px;
+  .slider--white  {
+    padding: 63px 50px;
+  }
+
+  .slider--gray {
+    padding: 63px 50px;
   }
 
   .slider--white img {
@@ -136,11 +132,12 @@
     height: 150px;
   }
 
-  .slick-prev {
+
+  .slider__prev {
     left: 10px;
   }
 
-  .slick-next {
+  .slider__next {
     right: 10px;
   }
 }
@@ -150,11 +147,7 @@
     padding: 0;
   }
 
-  .slider .slick-slider {
-    padding: 0;
-  }
-
-  .slider__item {
+  .slider__item--active {
     flex-wrap: wrap;
     text-align: center;
   }
@@ -164,15 +157,15 @@
     margin-bottom: 30px;
   }
 
-  .slick-arrow {
+  .slider__button {
     top: 20%;
   }
 
-  .slick-prev {
+  .slider__prev {
     left: 25px;
   }
 
-  .slick-next {
+  .slider__next {
     right: 25px;
   }
 }
@@ -182,15 +175,15 @@
     font-size: 19px;
   }
 
- .slick-arrow {
+  .slider__button {
     top: 20%;
   }
 
-  .slick-prev {
+  .slider__prev {
     left: 0;
   }
 
-  .slick-next {
+  .slider__next {
     right: 0;
   }
 }

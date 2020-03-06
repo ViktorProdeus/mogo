@@ -13,7 +13,6 @@
 //===================
 
 .main-header--fixed {
-  padding: 10px 0;
   position: fixed;
   top: 0;
   right: 0;
@@ -24,26 +23,8 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-.main-header--fixed .site-navigation__link {
-  padding-bottom: 3px;
-}
-
 .main-header--active {
   background-color: #eb8b8d;
-}
-
-.main-header--active .nav-toggle__item {
-  background: none;
-
-  &::before {
-    top: 0;
-    transform: rotate(45deg);
-  }
-
-  &::after {
-    bottom: 0;
-    transform: rotate(-45deg);
-  }
 }
 
 .main-header__inner {
@@ -66,10 +47,4 @@
   .main-header {
     padding: 10px 0;
   }
-
-  .main-header--active .site-navigation {
-    display: flex;
-  }
 }
-
-
