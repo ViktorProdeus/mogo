@@ -1,5 +1,5 @@
 # Макет для тренировки «Mogo» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
-# ![Image of project «Здоровая мама»](https://github.com/ViktorProdeus/mogo/blob/master/mogo.jpg)
+# ![Image of project «Mogo»](https://github.com/ViktorProdeus/mogo/blob/master/mogo.jpg)
 
 * макет: [Посмотреть](https://freebiesbug.com/psd-freebies/mogo-free-one-page-psd-template/). 
 * Вёрстка макета: [Посмотреть](https://viktorprodeus.github.io/mogo/build/).  
